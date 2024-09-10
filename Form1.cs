@@ -82,9 +82,8 @@ namespace Lab3
         private void btSiguiente_Click(object sender, EventArgs e)
         {
             //faltaria ponerle lo del form2
-
-            /*Form2 form2 = new Form2();
-            form2.Show();*/
+            Frm2 form2 = new Frm2();
+            form2.Show();
             this.Hide();
 }
 }
