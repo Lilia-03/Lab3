@@ -85,6 +85,8 @@ namespace Lab3
             Frm2 form2 = new Frm2();
             form2.Show();
             this.Hide();
+
+            //hola
 }
 }
 }

@@ -36,22 +36,25 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.SeaShell;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(363, 213);
+            this.label1.Location = new System.Drawing.Point(272, 173);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 29);
+            this.label1.Size = new System.Drawing.Size(21, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = ":)";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Frm2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Frm2";
             this.Text = "Frm2";
+            this.Load += new System.EventHandler(this.Frm2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
